@@ -21,4 +21,4 @@ def browser(request):
         print("Browser {} still is not implemented".format(browser_name))
     yield browser
     print("\nquit browser..")
-    browser.quit()
+    # browser.quit()
